@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Word and more words</title>
-    <link rel="stylesheet" href=style.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body ng-app="randomWords" ng-controller='ourController'>
 
@@ -13,7 +13,7 @@
       <button ng-click="addMoreWordDecoration(item)" type="button" id="moreWordDecoration">More Words Decoration</button>
 
       <div class="wordBox">
-        <span ng-class="item.cls" ng-repeat="item in newWords track by $index">{{item.text}}</span>
+        <span ng-class="item.cls" ng-repeat="item in newWords track by $index">{{item.name}}</span>
       </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
