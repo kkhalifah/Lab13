@@ -1,0 +1,21 @@
+.one {
+    font-weight: bold;
+}
+.two{
+  border-style: dashed;
+}
+.three{
+  color: blue;
+}
+
+.four{
+  color: orange;
+}
+
+.five{
+    font-size: 120%;
+}
+
+.six {
+    font-family: cursive;
+}
