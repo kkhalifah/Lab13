@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Word and more words</title>
+  </head>
+  <body ng-app="randomWords" ng-controller='ourController'>
+
+      <button ng-click="addOneWord(item)" type="button" id="oneWord">One Word</button>
+      <button ng-click="addWordDecoration(item)" type="button" id="wordDecoration">One Word Decoration</button>
+      <button ng-click="addMoreWord(item)" type="button" id="moreWord">More Words</button>
+      <button ng-click="addMoreWordDecoration(item)" type="button" id="moreWordDecoration">More Words Decoration</button>
+
+      <div class="wordBox">
+        <span ng-class="item.cls" ng-repeat="item in words">{{item.text}}</span>
+      </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="app.js"></script>
+  </body>
+</html>
