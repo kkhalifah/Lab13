@@ -1,3 +1,33 @@
+
+body {
+  text-align: center;
+
+}
+
+#buttons{
+  text-align: center;
+
+}
+
+img {
+  width: 400px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.wordBox {
+  width: 730px;
+  height: 200px;
+  border: 2px solid yellow;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+button{
+  width: 180px;
+}
+
+
 .one {
     font-weight: bold;
 }
@@ -14,8 +44,10 @@
 
 .five{
     font-size: 120%;
+    color: pink;
 }
 
 .six {
     font-family: cursive;
+    color: yellow;
 }

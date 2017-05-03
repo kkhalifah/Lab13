@@ -6,11 +6,13 @@
     <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body ng-app="randomWords" ng-controller='ourController'>
-
+<img src="kid.jpg">
+<div id="buttons">
       <button ng-click="addOneWord(item)" type="button" id="oneWord">One Word</button>
       <button ng-click="addWordDecoration(item)" type="button" id="wordDecoration">One Word Decoration</button>
       <button ng-click="addMoreWord(item)" type="button" id="moreWord">More Words</button>
       <button ng-click="addMoreWordDecoration(item)" type="button" id="moreWordDecoration">More Words Decoration</button>
+</div>
 
       <div class="wordBox">
         <span ng-class="item.cls" ng-repeat="item in newWords track by $index">{{item.name}}</span>
